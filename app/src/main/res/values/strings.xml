@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Aplikasi Chat Firebase</string>
+    <string name="app_name">Kuy</string>
     <string name="dummy_sentence">asdfhkjasdhfkljasdhfkjhasdkjfhaksjdfhlkajsdfhkjasdhfkjashdfkjahsdkjfhaksdhfjasdhfjkashdkljfhakjlsdhfkjashdfjkahsdkjfhkajsdhfkjadshfkhasdkfjhadsjkfhaksdhfkjahsdkfjhaskjdhfkajsdhfjkhadskjfjkasdhfkjahsdkjfhakjlsdhfkjlasdhf</string>
+    <string name="room_title">Room</string>
     <string name="add_room_title">Add Room</string>
+    <string name="write_message_title">Tulis pesan...</string>
 </resources>

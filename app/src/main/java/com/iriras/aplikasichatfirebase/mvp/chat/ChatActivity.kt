@@ -6,7 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import com.iriras.aplikasichatfirebase.R
 import com.iriras.aplikasichatfirebase.base.BaseActivity
-import com.iriras.aplikasichatfirebase.mvp.chatroomlist.ChatRoomListActivity
+import com.iriras.aplikasichatfirebase.mvp.roomlist.RoomListActivity
 import com.iriras.aplikasichatfirebase.util.helper.RouteHelper
 import org.jetbrains.anko.find
 
@@ -30,7 +30,7 @@ class ChatActivity : BaseActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_chat_add_room -> RouteHelper.startThisActivity(this, ChatRoomListActivity::class.java)
+            R.id.action_chat_room -> RouteHelper.startThisActivity(this, RoomListActivity::class.java)
             else -> finish()
         }
         return true
