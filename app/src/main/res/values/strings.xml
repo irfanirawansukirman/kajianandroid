@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aplikasi Chat Firebase</string>
+    <string name="dummy_sentence">asdfhkjasdhfkljasdhfkjhasdkjfhaksjdfhlkajsdfhkjasdhfkjashdfkjahsdkjfhaksdhfjasdhfjkashdkljfhakjlsdhfkjashdfjkahsdkjfhkajsdhfkjadshfkhasdkfjhadsjkfhaksdhfkjahsdkfjhaskjdhfkajsdhfjkhadskjfjkasdhfkjahsdkjfhakjlsdhfkjlasdhf</string>
+    <string name="add_room_title">Add Room</string>
+</resources>

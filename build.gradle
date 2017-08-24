@@ -1,0 +1,52 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    //version library
+    ext.kotlin_version = '1.1.4-2'
+    ext.android_library_version = '26.+'
+    ext.android_constraint_library_version = '1.0.2'
+    ext.firebase_version = '10.2.6'
+    ext.unit_test_espresso_version = '2.2.2'
+    ext.gradle_version = '2.3.3'
+    ext.google_service_version = '3.1.0'
+    ext.calligraphy_version = '2.3.0'
+    ext.neenbedank_gradle_plugin_version = '1.8'
+    ext.benmanes_gradle_plugin_version = '0.12.0'
+    ext.dagger_version = '2.9'
+    ext.dagger_compiler_version = '2.9'
+    ext.javax_anotation_version = '1.0'
+    ext.retrofit_version = '2.3.0'
+    ext.gson_version = '2.3.0'
+    ext.rxjava2_adapter_version  = '2.3.0'
+    ext.rxjava2_android_version = '2.0.1'
+    ext.rxjava2_version = '2.1.2'
+    ext.lombok_version =  '1.16.16'
+    ext.eventbus_version = '3.0.0'
+    ext.okhttp3_version = '3.2.0'
+    ext.anko_version = '0.10.0'
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradle_version"
+        classpath "com.google.gms:google-services:$google_service_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.neenbedankt.gradle.plugins:android-apt:1.8"
+        classpath "com.github.ben-manes:gradle-versions-plugin:0.12.0"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
