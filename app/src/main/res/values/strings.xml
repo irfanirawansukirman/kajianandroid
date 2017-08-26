@@ -4,4 +4,7 @@
     <string name="room_title">Room</string>
     <string name="add_room_title">Add Room</string>
     <string name="write_message_title">Tulis pesan...</string>
+    <string name="lorem_ipsum_title">Lorem Ipsum</string>
+    <string name="enter_group_name_here_title">Enter Group Name Here</string>
+    <string name="save_title">Save</string>
 </resources>

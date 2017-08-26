@@ -25,6 +25,7 @@ buildscript {
     ext.eventbus_version = '3.0.0'
     ext.okhttp3_version = '3.2.0'
     ext.anko_version = '0.10.0'
+    ext.selectable_rounded_image_version = '1.0.1'
 
     repositories {
         jcenter()

@@ -10,13 +10,6 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
 
-    <com.iriras.aplikasichatfirebase.util.widget.RoundedTopImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:scaleType="centerCrop"
-        android:src="@drawable/img_dummy" />
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rec_roomlist"
         android:layout_width="match_parent"
