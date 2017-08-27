@@ -7,4 +7,5 @@
     <string name="lorem_ipsum_title">Lorem Ipsum</string>
     <string name="enter_group_name_here_title">Enter Group Name Here</string>
     <string name="save_title">Save</string>
+    <string name="enter_username_here_title">Enter Username Here</string>
 </resources>
